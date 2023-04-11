@@ -5,7 +5,7 @@ test.describe('Create a new user', () => {
   test.beforeEach(async ({ page }) => {
     await page.goto('/');
   });
-  test('User should be created and redirected to dashboard', async ({
+  test('User should be created and redirected to dashboard page', async ({
     page,
     homePage,
     signUpPage,
