@@ -8,7 +8,7 @@
     "test:logs": "DEBUG=pw:api npx playwright test"
   },
   "keywords": [],
-  "author": "",
+  "author": "Affan Rashid",
   "license": "ISC",
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
