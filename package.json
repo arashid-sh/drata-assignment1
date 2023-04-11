@@ -1,0 +1,21 @@
+{
+  "name": "playwright-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:logs": "DEBUG=pw:api npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@playwright/test": "^1.32.2",
+    "prettier": "2.8.7"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
