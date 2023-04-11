@@ -1,4 +1,4 @@
-import { UserService } from '../factories/usercreationfactory';
+import { UserService } from '../../src/factories/usercreationfactory';
 import { expect, test } from '../fixtures/fixtures';
 
 test.describe('Create a new user', () => {

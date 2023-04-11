@@ -27,7 +27,7 @@ export default defineConfig({
     baseURL: process.env.baseURL,
     ignoreHTTPSErrors: true,
     trace: 'on-first-retry',
-    headless: false,
+    headless: true,
     actionTimeout: 10000,
     navigationTimeout: 30000,
   },
