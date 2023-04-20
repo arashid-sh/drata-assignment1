@@ -24,10 +24,6 @@ Assumptions: Mac with VSCode installed
 - Type `npm run test` to run the tests. If you want to see logs in the terminal while running the tests Type `npm run test:logs`
   Note: if you want to run the test in headed mode, change the boolean value on line 33 in `playwright.config.ts` to `false`
 
-# Report
-
-- There should be a HTML report generated for the run under `./playwright-report/` folder.
-
 # Environment Variables
 
 If you are running the project locally, you will need a .env file in the root of the project with the appropriate required environment variables as described in the table below. Simply copy the **.env.sample** file to a local **.env file** in the root of the project and set the values as required.
