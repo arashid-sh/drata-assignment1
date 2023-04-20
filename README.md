@@ -1,4 +1,4 @@
-# LTK Take Home Assessment
+# Drata Take Home Assessment
 
 This project uses playwright with typescript to automate the user flow mentioned in the take home assessment.
 
@@ -21,7 +21,7 @@ Assumptions: Mac with VSCode installed
 - Type `npx playwright install` to install playwright browsers
 - Type `npm install` to install dependencies
 - Rename the `.env.template`, in the root of this project, to `.env`
-- Type `npm run test` to run the test. If you want to see logs in the terminal while running the tests Type `npm run test:logs`
+- Type `npm run test` to run the tests. If you want to see logs in the terminal while running the tests Type `npm run test:logs`
   Note: if you want to run the test in headed mode, change the boolean value on line 33 in `playwright.config.ts` to `false`
 
 # Report
@@ -38,4 +38,8 @@ If you are running the project locally, you will need a .env file in the root of
 
 # Project Breakdown
 
-All of the code is under the `src` folder. I have used the page object model as a design pattern for storing selectors and performing tasks that require more than one action for a step. The main test is in the `test` folder and the page classes are in the `pages` folder. I also used creational design patterns with playwright fixtures (https://zoopla.blog/posts/2023/test-framework-migration/) to make using the page classes more cleaner and easier. I also created a user factory that returns a user type with username and password fields. This way we can easily create the a user anywhere in the framework; be it for tests or if you want to send user credentials via an api call.
+All of the code is under the `src` folder. I have used the page object model as a design pattern for storing selectors and performing tasks that require more than one action for a step. The main test is in the `test` folder and the page classes are in the `pages` folder. I also used creational design patterns with playwright fixtures (https://zoopla.blog/posts/2023/test-framework-migration/) to make using the page classes more cleaner and easier.
+
+# Reports
+
+To view a HTML report run `npm run reports` after the tests have completed.

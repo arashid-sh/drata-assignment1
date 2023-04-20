@@ -34,9 +34,7 @@
       ],
       [
         "html",
-        {
-          "open": "never"
-        }
+        null
       ]
     ],
     "reportSlowTests": {
@@ -54,20 +52,20 @@
   },
   "suites": [
     {
-      "title": "usercreation.spec.ts",
-      "file": "usercreation.spec.ts",
+      "title": "assignment1.spec.ts",
+      "file": "assignment1.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [],
       "suites": [
         {
-          "title": "Create a new user",
-          "file": "usercreation.spec.ts",
+          "title": "Create a UI Testing Suite",
+          "file": "assignment1.spec.ts",
           "line": 4,
           "column": 6,
           "specs": [
             {
-              "title": "User should be created and redirected to dashboard page",
+              "title": "User should navigate to the https://www.drata.com/platform page, check no console errors on page, verify title and that sub hero title exists",
               "ok": true,
               "tags": [],
               "tests": [
@@ -81,21 +79,181 @@
                     {
                       "workerIndex": 0,
                       "status": "passed",
-                      "duration": 11492,
+                      "duration": 10033,
                       "errors": [],
                       "stdout": [],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2023-04-11T22:18:39.742Z",
+                      "startTime": "2023-04-20T01:43:29.991Z",
                       "attachments": []
                     }
                   ],
                   "status": "expected"
                 }
               ],
-              "id": "86d2a97f41e1b5f8f607-e36cee7e7ab1e324d7cd",
-              "file": "usercreation.spec.ts",
-              "line": 8,
+              "id": "dcb3c304110d585f5c59-b2362b58b7c7c09c47c1",
+              "file": "assignment1.spec.ts",
+              "line": 7,
+              "column": 7
+            },
+            {
+              "title": "User should navigate to the https://www.drata.com/product page, check no console errors on page, verify title and that sub hero title exists",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 5146,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-04-20T01:43:42.019Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dcb3c304110d585f5c59-a57d3d86703767110fb9",
+              "file": "assignment1.spec.ts",
+              "line": 19,
+              "column": 7
+            },
+            {
+              "title": "User should navigate to the https://www.drata.com/resources page, check no console errors on page, verify title and that sub hero title exists",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 4181,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-04-20T01:43:47.167Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dcb3c304110d585f5c59-46cbb1cf71eb06c462bd",
+              "file": "assignment1.spec.ts",
+              "line": 31,
+              "column": 7
+            },
+            {
+              "title": "User should navigate to the https://www.drata.com/auditors page, check no console errors on page, verify title and that sub hero title exists",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 4926,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-04-20T01:43:51.349Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dcb3c304110d585f5c59-959684dc24fb76b3acf5",
+              "file": "assignment1.spec.ts",
+              "line": 41,
+              "column": 7
+            },
+            {
+              "title": "User should navigate to the https://www.drata.com/customers page, check no console errors on page, verify title and that sub hero title exists",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 4649,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-04-20T01:43:56.276Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dcb3c304110d585f5c59-8437752a0b6b7a9a1cb2",
+              "file": "assignment1.spec.ts",
+              "line": 51,
+              "column": 7
+            },
+            {
+              "title": "User should navigate to the https://www.drata.com/about page, check no console errors on page, verify title and that sub hero title exists",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 4179,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-04-20T01:44:00.927Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "dcb3c304110d585f5c59-4a3d3b1e193983fbf6bc",
+              "file": "assignment1.spec.ts",
+              "line": 61,
               "column": 7
             }
           ]

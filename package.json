@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
-    "test:logs": "DEBUG=pw:api npx playwright test"
+    "test:logs": "DEBUG=pw:api npx playwright test",
+    "reports": "npx playwright show-report"
   },
   "keywords": [],
   "author": "Affan Rashid",
